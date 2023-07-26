@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Theme</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar starts -->
+    <nav id="navbar"
+      class="flex items-center md:pl-24 md:pr-24 px-5 w-full h-24 bg-[#2C3E50] text-white text-xl font-bold uppercase fixed transition-height duration-200"
+    >
+      <h1 id="logo" class="w-full md:mr-60 md:text-4xl text-2xl transition-all duration-300"><a class="nav-link" href="#">Start Tailwind</a></h1>
+      <ul id="nav-items" class="md:flex justify-end items-center gap-12 w-full hidden">
+        <li id="portfolio" class="hover:text-[#1ABC9C] transition-all duration-100"><a href="#portfolio">Portfolio</a></li>
+        <li id="about" class="hover:text-[#1ABC9C] transition-all duration-100"><a class="nav-link" href="#about">About</a></li>
+        <li id="contact" class="hover:text-[#1ABC9C] transition-all duration-100"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <div
+        class="md:hidden flex items-center p-[10px] bg-[#1ABC9C] rounded-lg cursor-pointer"
+      >
+        <span> menu </span>
+        <i class="fa-solid fa-bars ml-2"></i>
+      </div>
+    </nav>
+    <!-- Navbar ends -->
+    <!-- Hero section starts -->
+    <div class="bg-[#1ABC9C] pt-56 md:pt-44 text-white">
+      <div class="flex justify-center mb-16">
+        <img
+          src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg"
+          alt="hero_img"
+          class="w-64 md:w-[300px]"
+        />
+      </div>
+      <div class="flex flex-col items-center justify-center">
+        <h2
+          class="text-4xl md:text-6xl font-bold mb-8 uppercase w-44 md:w-auto text-center"
+        >
+          Start Tailwind
+        </h2>
+        <div class="flex gap-6 items-center justify-center text-white mb-10">
+          <div
+            class="md:w-[140px] w-[110px] rounded-2xl border-solid border-[3px] border-white"
+          ></div>
+          <i class="fa-solid fa-star text-4xl" style="color: #ffffff"></i>
+          <div
+            class="md:w-[140px] w-[110px] rounded-2xl border-solid border-[3px] border-white"
+          ></div>
+        </div>
+        <h3 class="text-2xl md:text-4xl font-bold text-center pb-28">
+          Graphic Artist - Web Designer - Illustrator
+        </h3>
+      </div>
+    </div>
+    <!-- Hero section ends -->
+    <!-- Portfolio section starts -->
+    <div>
+      <div>
+        <h2
+          class="uppercase text-center md:text-6xl text-4xl md:pt-32 pt-24 pb-10 font-bold text-[#2C3E50]"
+        >
+          Portfolio
+        </h2>
+      </div>
+      <div class="flex gap-6 items-center justify-center text-[#2C3E50] mb-10">
+        <div
+          class="md:w-[140px] w-[110px] rounded-2xl border-solid border-[3px] border-[#2C3E50]"
+        ></div>
+        <i class="fa-solid fa-star text-4xl" style="color: #2c3e50"></i>
+        <div
+          class="md:w-[140px] w-[110px] rounded-2xl border-solid border-[3px] border-[#2C3E50]"
+        ></div>
+      </div>
+      <div class="mx-6 md:mx-52 pb-10 flex justify-evenly flex-wrap">
+        <img
+          src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png"
+          alt="some_img"
+          class="rounded-xl mb-20 md:mb-14 md:w-[300px]"
+        />
+        <img
+          src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png"
+          alt="some_img"
+          class="rounded-xl mb-20 md:mb-14 md:w-[300px]"
+        />
+        <img
+          src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png"
+          alt="some_img"
+          class="rounded-xl mb-20 md:mb-14 md:w-[300px]"
+        />
+        <img
+          src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png"
+          alt="some_img"
+          class="rounded-xl mb-20 md:mb-14 md:w-[300px]"
+        />
+        <img
+          src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png"
+          alt="some_img"
+          class="rounded-xl mb-20 md:mb-14 md:w-[300px]"
+        />
+        <img
+          src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png"
+          alt="some_img"
+          class="rounded-xl mb-20 md:mb-14 md:w-[300px]"
+        />
+      </div>
+    </div>
+    <!-- Portfolio section ends -->
+    <!-- About section starts -->
+    <div class="bg-[#1ABC9C] flex flex-col items-center py-32">
+      <div>
+        <h2
+          class="text-4xl md:text-6xl text-center font-bold text-white pb-10 uppercase"
+        >
+          About
+        </h2>
+      </div>
+      <div class="flex gap-6 items-center justify-center text-white mb-10">
+        <div
+          class="md:w-[140px] w-[110px] border-solid border-[3px] border-white rounded-2xl"
+        ></div>
+        <i class="fa-solid fa-star text-4xl" style="color: #ffffff"></i>
+        <div
+          class="md:w-[140px] w-[110px] border-solid border-[3px] border-white rounded-2xl"
+        ></div>
+      </div>
+      <div class="md:flex justify-center text-white px-8">
+        <p class="mb-6 md:mr-8 md:text-3xl text-xl md:w-[600px] w-full">
+          Freelancer is a free bootstrap theme created by Start Bootstrap. The
+          download includes the complete source files including HTML, CSS, and
+          JavaScript as well as optional SASS stylesheets for easy
+          customization.
+        </p>
+        <p class="pb-20 md:text-3xl text-xl md:w-[600px] w-full">
+          You can create your own custom avatar for the masthead, change the
+          icon in the dividers, and add your email address to the contact form
+          to make it fully functional!
+        </p>
+      </div>
+      <button
+        class="md:w-[200px] w-[250px] md:py-4 py-3 rounded-lg border-2 border-solid border-white md:text-2xl text-2xl text-white cursor-pointer hover:bg-white hover:text-black"
+      >
+        Free Download
+      </button>
+    </div>
+    <!-- About section ends -->
+    <!-- Form section starts -->
+    <div class="flex flex-col items-center py-20">
+      <h2
+        class="uppercase text-center md:text-6xl text-4xl pb-10 font-bold text-[#2C3E50]"
+      >
+        Contact Me
+      </h2>
+      <div class="flex gap-6 items-center justify-center text-[#2C3E50] mb-10">
+        <div
+          class="md:w-[140px] w-[110px] rounded-2xl border-solid border-[3px] border-[#2C3E50]"
+        ></div>
+        <i class="fa-solid fa-star text-4xl" style="color: #2c3e50"></i>
+        <div
+          class="md:w-[140px] w-[110px] rounded-2xl border-solid border-[3px] border-[#2C3E50]"
+        ></div>
+      </div>
+      <form class="md:w-[800px] mb-10 text-2xl">
+        <div class="flex flex-col mb-8">
+          <label for="name">Full name</label>
+          <input
+            type="text"
+            id="name"
+            class="border-0 border-b-[1px] border-slate-400 text-xl focus:ring-0 focus:border-red-600 focus:border-b-2"
+          />
+        </div>
+        <div class="flex flex-col mb-8">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="border-0 border-b-[1px] border-slate-400 text-xl focus:ring-0 focus:border-red-600 focus:border-b-2"
+          />
+        </div>
+        <div class="flex flex-col mb-8">
+          <label for="ph-number">Phone number</label>
+          <input
+            type="number"
+            id="ph-number"
+            class="border-0 border-b-[1px] border-slate-400 text-xl focus:ring-0 focus:border-red-600 focus:border-b-2"
+          />
+        </div>
+        <div class="flex flex-col mb-8">
+          <label for="message">Message</label>
+          <textarea
+            name=""
+            id="message"
+            cols="10"
+            rows="3"
+            class="border-0 border-b-[1px] border-slate-400 text-xl focus:ring-0 focus:border-red-600 focus:border-b-2"
+          ></textarea>
+        </div>
+        <input
+          type="submit"
+          value="Send"
+          class="bg-[#6ad3bf] hover:bg-[#42c3ab] text-white text-xl py-4 px-7 rounded-lg cursor-pointer"
+        />
+      </form>
+    </div>
+    <!-- Form section ends -->
+    <!-- Footer section starts -->
+    <div>
+      <div
+        class="flex flex-col md:flex-row md:justify-center items-center md:px-52 md:py-16 py-36 text-white bg-[#2c3e50]"
+      >
+        <div class="text-center">
+          <h3 class="md:text-4xl text-2xl font-bold py-6">LOCATION</h3>
+          <p class="text-xl">2215 John Daniel Drive Clark, MO 65243</p>
+        </div>
+        <div class="md:mx-12 md:w-[400px] text-center">
+          <h3 class="md:text-4xl text-2xl font-bold py-6">AROUND THE WEB</h3>
+          <div class="text-xl flex md:justify-evenly gap-4">
+            <a
+              href=""
+              class="border-2 border-solid border-white rounded-[100%] px-5 py-3 hover:bg-white hover:text-black"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              href=""
+              class="border-2 border-solid border-white rounded-[100%] px-4 py-3 hover:bg-white hover:text-black"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              href=""
+              class="border-2 border-solid border-white rounded-[100%] px-4 py-3 hover:bg-white hover:text-black"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href=""
+              class="border-2 border-solid border-white rounded-[100%] px-4 py-3 hover:bg-white hover:text-black"
+              ><i class="fa-brands fa-dribbble"></i
+            ></a>
+          </div>
+        </div>
+        <div class="md:w-[500px] text-center">
+          <h3 class="md:text-4xl text-2xl font-bold py-6">ABOUT FREELANCER</h3>
+          <p class="text-xl">
+            Freelance is a free to use, MIT licensed Tailwind theme created by
+            Start Tailwind.
+          </p>
+        </div>
+      </div>
+      <div class="bg-[#1a252f] text-white text-center py-10">
+        <p>Copyright © Start Tailwind Website 2023</p>
+      </div>
+    </div>
+    <!-- Footer section ends -->
+    <!-- Internal js starts -->
+    <script src="./script.js"></script>
+    <!-- Internal js ends -->
+    <!-- External js starts -->
+    <script
+    src="https://kit.fontawesome.com/b57767c9d8.js"
+    crossorigin="anonymous"
+    ></script>
+    <!-- External js ends -->
+  </body>
+</html>
